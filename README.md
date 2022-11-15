@@ -15,3 +15,9 @@ Templates for ACM-W Personal Website Night
    6. Columns
    7. Modals
    8. Tiles
+   
+# Further reading
+- Django/Flask to dynamically generate HTML content
+- JavaScript to make interactive web pages
+- GitHub to store and document your projects (maybe worth mentioning that they should put their schoolwork on GH)
+- SaSS to customize the CSS (https://bulma.io/documentation/customize/concepts/)
