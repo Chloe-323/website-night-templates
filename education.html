@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index Page Template</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <script src="https://kit.fontawesome.com/5d85ba5583.js" crossorigin="anonymous"></script>
+    <script src="modal.js"></script>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="about.html">
+              About
+            </a>
+      
+            <a class="navbar-item" href="education.html">
+              Education
+            </a>
+
+            <a class="navbar-item" href="experience.html">
+              Experience
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Selected Projects
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="https://github.com/Chloe-323/Pytris">
+                  Tetris&nbsp;&nbsp; <span class="tag is-danger">Python</span>
+                </a>
+                <a class="navbar-item" href="#">
+                  Website&nbsp;&nbsp; <span class="tag is-danger">Python</span>&nbsp;<span class="tag is-warning">Django</span>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="#">
+                  2D Platformer&nbsp;&nbsp; <span class="tag is-info">C++</span>&nbsp;<span class="tag is-success">SFML</span>
+                </a>
+                <a class="navbar-item" href="#">
+                  Algorithm Visualizer&nbsp;&nbsp; <span class="tag is-info">C++</span>&nbsp;<span class="tag is-success">SFML</span>
+                </a>
+                <a class="navbar-item" href="#">
+                  Final Project for CS-UY 2993&nbsp;&nbsp; <span class="tag is-info">C++</span>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="#">
+                  Diet Planner for Android&nbsp;&nbsp; <span class="tag is-warning">Java</span>
+                </a>
+                <a class="navbar-item" href="#">
+                  Budget Planner for iOS&nbsp;&nbsp; <span class="tag is-link">Swift</span>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item" href="#">
+                  Make a Suggestion
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero is-primary is-medium">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns" align="center">
+                    <div class="column is-one-third">
+                        <h1 class="title">
+                            Education
+                        </h1>
+                    </div>
+                    <div class="column is-one-third">
+                            <img src="https://yt3.ggpht.com/-RZYi5isxH_M/AAAAAAAAAAI/AAAAAAAAAAA/rmWpoe2qZzI/s900-c-k-no/photo.jpg" width="128" height="128" alt-text="New York University">
+                    </div>
+                    <div class="column is-one-third">
+                        <h1 class="title">
+                            New York University
+                        </h1>
+                        <h2 class="subtitle">
+                            Bachelor of Science in Computer Science
+                        </h2>
+                        <h2 class="subtitle">
+                            Expected Graduation: May 2023
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content -->    
+    <div class="container pt-3">
+        <h1 class="title">Noteworthy Courses</h1>
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+              <div class="tile">
+                <div class="tile is-parent is-vertical">
+                  <article class="tile is-child notification is-primary">
+                    <p class="title">CS-UY 1114</p>
+                    <p class="subtitle">Intro to Programming</p>
+                    <div class="content">
+                        <p>Learned the basics of programming in Python, including data types, control structures, functions, and object-oriented programming.</p>
+                    </div>
+                  </article>
+                  <article class="tile is-child notification is-danger">
+                    <p class="title">CS-UY 1124</p>
+                    <p class="subtitle">Data Structures and Algorithms</p>
+                    <div class="content">
+                        <p>Learned the basics of data structures and algorithms, including linked lists, stacks, queues, trees, and graphs.</p>
+                  </article>
+                </div>
+                <div class="tile is-parent">
+                  <article class="tile is-child notification is-info">
+                    <p class="title">CS-UY 2224</p>
+                    <p class="subtitle">Object Oriented Programming</p>
+                    <div class="content">
+                        <p>Learned the basics of object-oriented programming, including classes, inheritance, and polymorphism, as well as the C++ programming language, including templates, operator overloading, pointers, memory management, and more.</p>
+                        <p><b>Final Project</b>: A role-playing game using SFML</p>
+                  </article>
+                </div>
+              </div>
+              <div class="tile is-parent">
+                <article class="tile is-child notification is-warning">
+                  <p class="title">CS-UY 3083</p>
+                  <p class="subtitle">Intro to Databases</p>
+                  <div class="content">
+                    <p>Learned the basics of databases, including SQL, relational algebra, and normalization, as well as relational diagrams, entity-relationship diagrams, views, and database implementation.</p>
+                    <p><b>Final Project</b>: A three-tiered web architecture to manage flight ticketing and paths</p>
+                  <div class="content">
+                    <!-- Content -->
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-success">
+                <div class="content">
+                  <p class="title">CS-UY 6573</p>
+                  <p class="subtitle">Some made up grad level class</p>
+                  <div class="content">
+                    </p>This was a really cool class that is impressive to recruiters, so you want to talk a lot about it. You can even include a <strong>list</strong>:
+                    <ul>
+                        <li>Did a ton of really complicated machine learning stuff</li>
+                        <li>Learned about deep neural networks</li>
+                        <li>Wrote a bunch of Python code</li>
+                        <li>After taking this class I should be the CEO of Google</li>
+                        <li>Here's an image showing how smart I am</li>
+                    </ul>
+                    <figure class="image is-4by3">
+                      <img src="https://bulma.io/images/placeholders/640x480.png">
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+    </div>
+</body>
+</html>
