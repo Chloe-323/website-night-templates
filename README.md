@@ -9,12 +9,12 @@ Templates for ACM-W Personal Website Night
 5. Common Elements
    1. Skeleton: DOCTYPE, html, head, body
    2. Writing text: h1, p, span, strong, em, small, sub, sup, escape sequences
-   3. FontAwesome
-   4. Navbar
-   5. Hero
-   6. Columns
-   7. Modals
-   8. Tiles
+   3. FontAwesome (https://fontawesome.com/ to get icons into the text)
+   4. Navbar (https://bulma.io/documentation/components/navbar/)
+   5. Hero (https://bulma.io/documentation/layout/hero/)
+   6. Columns (https://bulma.io/documentation/columns/basics/)
+   7. Modals (https://bulma.io/documentation/components/modal/)
+   8. Tiles (https://bulma.io/documentation/layout/tiles/)
    
 # Further reading
 - Django/Flask to dynamically generate HTML content
